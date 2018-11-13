@@ -1,0 +1,43 @@
+//COLORS
+$color-primary: #b66fff;
+$color-primary-light: #8d62b6;
+$color-primary-dark: #6600cc;
+$color-primary-grey: #f0dbff;
+$color-primary-grey-1: #f7f7f7;
+
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//////////////////////////////////////////
+
+//FIRST SECTION
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+
+.header {
+  height: 200vh;
+  background-image: linear-gradient(to right bottom, #0000, #012), url('../../img/landing-page.jpg');
+  background-size: cover;
+  background-position: top;
+ 
+  
+}
+
+.padding-top {
+  padding-top: 5rem;
+  padding-left: 2rem;
+}
+
+.header-section-pheader {
+  
+}

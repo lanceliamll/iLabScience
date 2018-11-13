@@ -1,0 +1,26 @@
+//COLORS
+$color-primary: #b66fff;
+$color-primary-light: #8d62b6;
+$color-primary-dark: #6600cc;
+$color-primary-grey: #f0dbff;
+$color-primary-grey-1: #f7f7f7;
+
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+.section-dashboard {
+  height: 100vh;
+  padding: 7rem 9rem;
+  background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
+  text-align: center;
+
+ 
+}
+
+.delete-account-sec {
+  margin-bottom: 60vh;
+
+}

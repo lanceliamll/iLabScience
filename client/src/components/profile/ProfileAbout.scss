@@ -1,0 +1,46 @@
+//COLORS
+$color-primary: #b66fff;
+$color-primary-light: #8d62b6;
+$color-primary-dark: #6600cc;
+$color-primary-grey: #f0dbff;
+$color-primary-grey-1: #f7f7f7;
+
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//////////////////////////////////////////
+
+//FIRST SECTION
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+.wrap {
+  padding: 0rem 0;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #f7f7f7;
+  width: 60%;
+  font-size: 1rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 1.0);
+  text-align: center;
+  color: #6600cc;
+  margin-bottom: 100px;
+  border-radius: 5px;
+
+}
+
+.container{
+
+}

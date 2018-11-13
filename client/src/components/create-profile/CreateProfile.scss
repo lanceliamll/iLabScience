@@ -1,0 +1,49 @@
+//COLORS
+$color-primary: #b66fff;
+$color-primary-light: #8d62b6;
+$color-primary-dark: #6600cc;
+$color-primary-grey: #f0dbff;
+$color-primary-grey-1: #f7f7f7;
+
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+
+
+.section-create-profile {
+  height: 180vh;
+  padding: 7rem 9rem;
+  background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
+  margin: 0 auto;
+
+
+  &__div {
+
+   
+ 
+  }
+  &__form {
+    margin-left: 25%;
+    margin-right:25%;
+    width: 100%;
+  }
+
+ 
+}
+
+.submit-form {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .8rem 2rem;
+  border-radius: 10rem;
+  position: relative;
+  transition: all .2;
+  border: none;
+  cursor: pointer;
+  width: 41%;
+
+
+}

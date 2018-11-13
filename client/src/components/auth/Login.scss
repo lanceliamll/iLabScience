@@ -1,0 +1,118 @@
+//COLORS
+$color-primary: #b66fff;
+$color-primary-light: #8d62b6;
+$color-primary-dark: #6600cc;
+$color-primary-grey: #f0dbff;
+$color-primary-grey-1: #f7f7f7;
+
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//SIZE
+.u-center-text {
+  text-align: center;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+  padding: 2rem 8rem;
+}
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+
+.u-margin-top-big {
+  margin-top: 8rem;
+
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem;
+}
+//////////////////////////////////////////
+
+//FIRST SECTION
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.section {
+  height: 80vh;
+  padding: 7rem 9rem;
+  background-image: linear-gradient(to right bottom, $color-primary, $color-primary-grey);
+}
+
+.book {
+  background-image: linear-gradient(105deg, rgba(white, 0.8) 0%,
+                                            rgba(white, 0.8) 50%,
+                                            transparent 50%),
+                                   url('../../img/higalaxy1.jpg');
+  background-size: 100%;
+  height: 30rem;
+  border-radius: 3px;
+  position: top;
+  box-shadow: 0 1.5rem 4rem rgba(black, .2);
+
+}
+
+
+.form {
+  
+
+  &__group {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+
+  &__input {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    box-shadow: 0 1.5rem 4rem rgba(black, .2);
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(white, .5);
+    border-bottom: 2px solid transparent;
+    border: none;
+    display: block;
+    width: 30%;
+    
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(black, .1);
+      border-bottom: 2px solid $color-primary-dark;
+    }
+    
+    &::-webkit-input-placeholder {
+      color:grey;
+    }
+  }
+ 
+
+  &__label {
+    font-size: .7rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: .3rem;
+    display: block;
+    color: grey;
+    transition: all .3s;
+  } 
+
+  // &__input:placeholder-shown + &__label{
+  //   opacity: 0;
+  //   visibility: hidden;
+  //   transform: translateY(-5px);
+
+  // }
+}
+
