@@ -32,10 +32,12 @@ class Profiles extends Component {
 
     return (
       <div>
-        <section className = "section-dashboard">
+        <section className = "header-profile">
+          <div className = "padding-top">
           <h1>Developer Profiles</h1>
           <p> Developers who contributed to create this Application </p>
           {profileItems}
+          </div>
         </section>
       </div>
     )

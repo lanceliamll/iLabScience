@@ -31,7 +31,7 @@ class ProfileItem extends Component {
                     <ul className = "paragraph">
                       {profile.fieldofscience.slice(0, 4).map((field, index) => (
                         <li key = {index}>
-                            {field}
+                            {field},
                         </li>
                       ))}
                     </ul>

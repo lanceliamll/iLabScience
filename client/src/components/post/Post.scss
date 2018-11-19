@@ -1,3 +1,5 @@
+
+
 //COLORS
 $color-primary: #b66fff;
 $color-primary-light: #8d62b6;
@@ -11,16 +13,19 @@ $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
 
-.section-dashboard {
-  height: 150vh;
-  padding: 7rem 9rem;
-  background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
-  text-align: center;
+//////////////////////////////////////////
 
- 
+//FIRST SECTION
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+
 }
 
-.delete-account-sec {
-  margin-bottom: 60vh;
-
+.single-post-feed {
+  padding-top: 100px;
+  height: 200vh;
+  background-color: #b66fff;
 }

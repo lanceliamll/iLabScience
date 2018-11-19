@@ -39,7 +39,7 @@ import './Profile.scss';
 
     return (
         <div>
-        <section className="header">
+        <section className="header-profile">
           <div className = "padding-top">
           {profileContent}
           </div>

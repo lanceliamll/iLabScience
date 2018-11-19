@@ -24,9 +24,10 @@ $gutter-horizontal: 6rem;
 
 
 
-.header {
-  height: 200vh;
-  background-image: linear-gradient(to right bottom, #0000, #012), url('../../img/landing-page.jpg');
+.header-profile{
+  height: 300vh;
+  //background-image: linear-gradient(to right bottom, #0000, #012), url('../../img/landing-page.jpg');
+  background-image: linear-gradient(to right bottom, $color-primary, $color-primary-grey);
   background-size: cover;
   background-position: top;
  

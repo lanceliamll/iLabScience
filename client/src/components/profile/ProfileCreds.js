@@ -22,8 +22,8 @@ import './ProfileCreds.scss';
       <h4>{edu.school}</h4>
       <p>{edu.degree}</p>
       <p>{edu.fieldofstudy}</p>
-      <p>{edu.from}</p>
-      <p>{edu.to}</p>
+      <p format = "MM/DD/YYYY">{edu.from}</p>
+      <p format = "MM/DD/YYYY">{edu.to}</p>
       <p>{edu.description}</p>
     </p>
     ));

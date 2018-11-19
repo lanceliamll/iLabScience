@@ -1,0 +1,70 @@
+
+
+//COLORS
+$color-primary: #b66fff;
+$color-primary-light: #8d62b6;
+$color-primary-dark: #6600cc;
+$color-primary-grey: #f0dbff;
+$color-primary-grey-1: #f7f7f7;
+
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//////////////////////////////////////////
+
+//FIRST SECTION
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+
+.post-field {
+  height: 250vh;
+  background-color: #b66fff;
+  padding-top: 100px;
+}
+
+
+.wrap {
+  padding: 0rem 0;
+  margin: 0 auto;
+  background-color: $color-primary-grey;
+  width: 60%;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 1.0);
+  text-align: center;
+  color: #7428c0;
+  margin-bottom: 100px;
+  border-radius: 5px;
+
+}
+
+
+.text-width{
+ resize: none;
+ font-size: 1rem;
+ font-weight: 700;
+ font-family: inherit;
+ box-shadow: 0 1.5rem 4rem rgba(black, .2);
+ padding: 1.5rem 2rem;
+ border-radius: 2px;
+ background-color: rgba(white, .5);
+ border-bottom: 2px solid transparent;
+ border: none;
+ display: block;
+ width: 80%;
+ margin: auto;
+ margin-bottom: 10px;
+}

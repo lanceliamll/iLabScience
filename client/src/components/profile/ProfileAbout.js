@@ -13,7 +13,7 @@ class ProfileAbout extends Component {
     // GET THE FIELD OF SCIENCE TO DISPLAY ON THE PROFILE
     const fieldofscience = profile.fieldofscience.map((field, index) => (
       <p key ={index} className = "paragraph">
-        {field} ,
+        {field},
       </p>
     ))
 
